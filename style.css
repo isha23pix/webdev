@@ -28,10 +28,8 @@
 }
 #hero
 {
-    display: grid;
-    grid-template-columns:repeat(2, 700px fr);
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 #heading
 {
@@ -58,9 +56,26 @@
     color:#ffffff;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
-    padding: 14px 28px;
+    padding: 14px 14px;
     cursor: pointer;
-    width: 30%;
+    width: 35%;
     margin-top: 4rem;
-    
+    word-wrap:normal
+}
+.container-1
+{
+    margin-left: 4rem;
+    margin-right: 1rem;
+    display: flex;
+    padding: 10xp;
+    flex-wrap: wrap;
+}
+.box-1
+{
+    flex:1;
+}
+.box-2
+{
+    justify-content: baseline;
+    flex:1;
 }
