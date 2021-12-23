@@ -1,0 +1,66 @@
+#header
+{
+    margin-top: 1.5rem;
+}
+.logo
+{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    
+}
+#headbtn
+{
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+    font-size:large;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 10px; 
+    
+}
+#headbtn:hover 
+{
+    background-color: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+}
+#hero
+{
+    display: grid;
+    grid-template-columns:repeat(2, 700px fr);
+    align-items: center;
+    margin-top: 30px;
+}
+#heading
+{
+    margin-top: 4rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    margin-left: 20px;
+
+}
+#para
+{
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(80, 79, 79);
+    font-size: 15px;
+    width:70%;
+    margin-left: 20px;
+}
+.btn
+{
+    border:none;
+    background-color: rgb(114, 70, 236);
+    border-radius: 1.5rem;
+    color:#ffffff;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding: 14px 28px;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 4rem;
+    
+}
